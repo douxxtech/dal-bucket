@@ -1,0 +1,63 @@
+{
+  "name": "pacman-shortcuts",
+  "description": "Essential shortcuts for Pacman package manager (Arch Linux)",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["pacman", "arch", "package-manager", "system"],
+  "aliases": [
+    {
+      "alias": "pi",
+      "command": "pacman -S",
+      "description": "Install packages with pacman",
+      "runAsRoot": true,
+      "tags": ["install", "quick"]
+    },
+    {
+      "alias": "pr",
+      "command": "pacman -R",
+      "description": "Remove packages with pacman",
+      "runAsRoot": true,
+      "tags": ["remove", "quick"]
+    },
+    {
+      "alias": "prs",
+      "command": "pacman -Rs",
+      "description": "Remove packages with dependencies",
+      "runAsRoot": true,
+      "tags": ["remove", "quick"]
+    },
+    {
+      "alias": "pu",
+      "command": "pacman -Syu",
+      "description": "Update system with pacman",
+      "runAsRoot": true,
+      "tags": ["update", "quick"]
+    },
+    {
+      "alias": "ps",
+      "command": "pacman -Ss",
+      "description": "Search for packages",
+      "tags": ["search", "quick"]
+    },
+    {
+      "alias": "pq",
+      "command": "pacman -Q",
+      "description": "Query installed packages",
+      "tags": ["list", "quick"]
+    },
+    {
+      "alias": "pc",
+      "command": "pacman -Sc",
+      "description": "Clean package cache",
+      "runAsRoot": true,
+      "tags": ["cleanup", "quick"]
+    },
+    {
+      "alias": "pcc",
+      "command": "pacman -Scc",
+      "description": "Clean all package cache",
+      "runAsRoot": true,
+      "tags": ["cleanup", "quick"]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "yay-shortcuts",
+  "description": "Essential shortcuts for YAY AUR helper (Arch Linux)",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["yay", "arch", "aur", "package-manager", "system"],
+  "aliases": [
+    {
+      "alias": "yi",
+      "command": "yay -S",
+      "description": "Install packages with yay",
+      "tags": ["install", "quick"]
+    },
+    {
+      "alias": "yr",
+      "command": "yay -R",
+      "description": "Remove packages with yay",
+      "tags": ["remove", "quick"]
+    },
+    {
+      "alias": "yrs",
+      "command": "yay -Rs",
+      "description": "Remove packages with dependencies",
+      "tags": ["remove", "quick"]
+    },
+    {
+      "alias": "yu",
+      "command": "yay -Syu",
+      "description": "Update system with yay",
+      "tags": ["update", "quick"]
+    },
+    {
+      "alias": "ys",
+      "command": "yay -Ss",
+      "description": "Search for packages",
+      "tags": ["search", "quick"]
+    },
+    {
+      "alias": "yq",
+      "command": "yay -Q",
+      "description": "Query installed packages",
+      "tags": ["list", "quick"]
+    },
+    {
+      "alias": "yc",
+      "command": "yay -Sc",
+      "description": "Clean package cache",
+      "tags": ["cleanup", "quick"]
+    },
+    {
+      "alias": "ycc",
+      "command": "yay -Scc",
+      "description": "Clean all package cache",
+      "tags": ["cleanup", "quick"]
+    }
+  ]
+}

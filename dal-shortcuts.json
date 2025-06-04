@@ -1,0 +1,45 @@
+{
+  "name": "dal-shortcuts",
+  "description": "Essential shortcuts for the DAL alias manager itself",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["dal", "alias-manager", "shortcuts", "productivity"],
+  "aliases": [
+    {
+      "alias": "da",
+      "command": "dal",
+      "description": "Short alias for dal command",
+      "tags": ["quick", "shortcut"]
+    },
+    {
+      "alias": "dai",
+      "command": "dal install",
+      "description": "Quick install packages",
+      "tags": ["install", "quick"]
+    },
+    {
+      "alias": "dau",
+      "command": "dal uninstall",
+      "description": "Quick uninstall packages",
+      "tags": ["uninstall", "quick"]
+    },
+    {
+      "alias": "das",
+      "command": "dal search",
+      "description": "Quick search packages",
+      "tags": ["search", "quick"]
+    },
+    {
+      "alias": "dal",
+      "command": "dal list",
+      "description": "Quick list aliases",
+      "tags": ["list", "quick"]
+    },
+    {
+      "alias": "dab",
+      "command": "dal bucket",
+      "description": "Quick bucket management",
+      "tags": ["bucket", "quick"]
+    }
+  ]
+}

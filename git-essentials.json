@@ -1,0 +1,87 @@
+{
+  "name": "git-essentials",
+  "description": "Essential Git command shortcuts for daily development",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["git", "version-control", "development", "productivity"],
+  "aliases": [
+    {
+      "alias": "gs",
+      "command": "git status",
+      "description": "Show git status",
+      "args": "--short --branch",
+      "tags": ["status", "quick"]
+    },
+    {
+      "alias": "ga",
+      "command": "git add",
+      "description": "Add files to staging",
+      "tags": ["add", "staging"]
+    },
+    {
+      "alias": "gaa",
+      "command": "git add",
+      "description": "Add all files to staging",
+      "args": ".",
+      "tags": ["add", "staging", "all"]
+    },
+    {
+      "alias": "gc",
+      "command": "git commit",
+      "description": "Commit changes",
+      "args": "-m",
+      "tags": ["commit"]
+    },
+    {
+      "alias": "gca",
+      "command": "git commit",
+      "description": "Commit all changes",
+      "args": "-am",
+      "tags": ["commit", "all"]
+    },
+    {
+      "alias": "gp",
+      "command": "git push",
+      "description": "Push changes to remote",
+      "tags": ["push", "remote"]
+    },
+    {
+      "alias": "gpl",
+      "command": "git pull",
+      "description": "Pull changes from remote",
+      "tags": ["pull", "remote"]
+    },
+    {
+      "alias": "gd",
+      "command": "git diff",
+      "description": "Show differences",
+      "tags": ["diff", "changes"]
+    },
+    {
+      "alias": "gl",
+      "command": "git log",
+      "description": "Show git log",
+      "args": "--oneline",
+      "tags": ["log", "history"]
+    },
+    {
+      "alias": "gb",
+      "command": "git branch",
+      "description": "List branches",
+      "tags": ["branch", "list"]
+    },
+    {
+      "alias": "gco",
+      "command": "git checkout",
+      "description": "Checkout branch or file",
+      "tags": ["checkout", "switch"]
+    },
+    {
+      "alias": "gcb",
+      "command": "git checkout",
+      "description": "Create and checkout new branch",
+      "args": "-b",
+      "tags": ["checkout", "create", "branch"]
+    }
+  ]
+}

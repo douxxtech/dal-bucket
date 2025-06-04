@@ -1,0 +1,65 @@
+{
+  "name": "compression-tools",
+  "description": "Essential file compression and archive management shortcuts",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["compression", "archive", "tar", "zip", "utilities"],
+  "aliases": [
+    {
+      "alias": "tarx",
+      "command": "tar",
+      "description": "Extract tar archive",
+      "args": "-xvf",
+      "tags": ["tar", "extract", "archive"]
+    },
+    {
+      "alias": "tarc",
+      "command": "tar",
+      "description": "Create tar archive",
+      "args": "-cvf",
+      "tags": ["tar", "create", "archive"]
+    },
+    {
+      "alias": "tarz",
+      "command": "tar",
+      "description": "Create compressed tar.gz",
+      "args": "-czvf",
+      "tags": ["tar", "gzip", "compress"]
+    },
+    {
+      "alias": "tarxz",
+      "command": "tar",
+      "description": "Extract tar.gz archive",
+      "args": "-xzvf",
+      "tags": ["tar", "gzip", "extract"]
+    },
+    {
+      "alias": "zipd",
+      "command": "zip",
+      "description": "Zip directory recursively",
+      "args": "-r",
+      "tags": ["zip", "directory", "recursive"]
+    },
+    {
+      "alias": "unzipd",
+      "command": "unzip",
+      "description": "Unzip to directory",
+      "args": "-d",
+      "tags": ["unzip", "directory", "extract"]
+    },
+    {
+      "alias": "7zx",
+      "command": "7z",
+      "description": "Extract 7z archive",
+      "args": "x",
+      "tags": ["7zip", "extract", "archive"]
+    },
+    {
+      "alias": "7za",
+      "command": "7z",
+      "description": "Create 7z archive",
+      "args": "a",
+      "tags": ["7zip", "create", "archive"]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "systemctl-shortcuts",
+  "description": "Essential systemctl shortcuts for systemd service management",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["systemctl", "systemd", "services", "system-admin"],
+  "aliases": [
+    {
+      "alias": "sctl",
+      "command": "systemctl",
+      "description": "Systemctl shortcut",
+      "tags": ["systemctl", "shortcut"]
+    },
+    {
+      "alias": "scstart",
+      "command": "systemctl start",
+      "description": "Start systemd service",
+      "runAsRoot": true,
+      "tags": ["start", "service"]
+    },
+    {
+      "alias": "scstop",
+      "command": "systemctl stop",
+      "description": "Stop systemd service",
+      "runAsRoot": true,
+      "tags": ["stop", "service"]
+    },
+    {
+      "alias": "screstart",
+      "command": "systemctl restart",
+      "description": "Restart systemd service",
+      "runAsRoot": true,
+      "tags": ["restart", "service"]
+    },
+    {
+      "alias": "screload",
+      "command": "systemctl reload",
+      "description": "Reload systemd service",
+      "runAsRoot": true,
+      "tags": ["reload", "service"]
+    },
+    {
+      "alias": "scstatus",
+      "command": "systemctl status",
+      "description": "Show service status",
+      "tags": ["status", "service"]
+    },
+    {
+      "alias": "scenable",
+      "command": "systemctl enable",
+      "description": "Enable service at boot",
+      "runAsRoot": true,
+      "tags": ["enable", "service"]
+    },
+    {
+      "alias": "scdisable",
+      "command": "systemctl disable",
+      "description": "Disable service at boot",
+      "runAsRoot": true,
+      "tags": ["disable", "service"]
+    },
+    {
+      "alias": "sclist",
+      "command": "systemctl list-units",
+      "description": "List all units",
+      "args": "--type=service",
+      "tags": ["list", "services"]
+    }
+  ]
+}

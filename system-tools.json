@@ -1,0 +1,114 @@
+{
+  "name": "system-tools",
+  "description": "Essential system administration and monitoring shortcuts",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["system", "admin", "monitoring", "utilities"],
+  "aliases": [
+    {
+      "alias": "ll",
+      "command": "ls",
+      "description": "Detailed file listing",
+      "args": "-la",
+      "tags": ["list", "files", "detailed"]
+    },
+    {
+      "alias": "la",
+      "command": "ls",
+      "description": "List all files including hidden",
+      "args": "-A",
+      "tags": ["list", "files", "hidden"]
+    },
+    {
+      "alias": "l",
+      "command": "ls",
+      "description": "Simple file listing",
+      "args": "-CF",
+      "tags": ["list", "files", "simple"]
+    },
+    {
+      "alias": "...",
+      "command": "cd",
+      "description": "Go up three directories",
+      "args": "../../..",
+      "tags": ["navigation", "directory"]
+    },
+    {
+      "alias": "h",
+      "command": "history",
+      "description": "Show command history",
+      "tags": ["history", "commands"]
+    },
+    {
+      "alias": "df",
+      "command": "df",
+      "description": "Show disk usage",
+      "args": "-h",
+      "tags": ["disk", "usage", "system"]
+    },
+    {
+      "alias": "du",
+      "command": "du",
+      "description": "Show directory size",
+      "args": "-sh",
+      "tags": ["disk", "directory", "size"]
+    },
+    {
+      "alias": "free",
+      "command": "free",
+      "description": "Show memory usage",
+      "args": "-h",
+      "tags": ["memory", "usage", "system"]
+    },
+    {
+      "alias": "ports",
+      "command": "netstat",
+      "description": "Show listening ports",
+      "args": "-tuln",
+      "tags": ["network", "ports", "system"]
+    },
+    {
+      "alias": "myip",
+      "command": "curl https://dapi.dpip.lol/v1/ip",
+      "description": "Show external IP address",
+      "args": "",
+      "tags": ["network", "ip", "external"]
+    },
+    {
+      "alias": "hst",
+      "command": "hostname",
+      "description": "Shows your hostname",
+      "args": "",
+      "tags": ["network", "hostname"]
+    },
+    {
+      "alias": "nn",
+      "command": "nano",
+      "description": "Open Nano text editor",
+      "args": "",
+      "tags": ["text", "editor", "nano"]
+    },
+    {
+      "alias": "c",
+      "command": "cat",
+      "description": "Concatenate and display files",
+      "args": "",
+      "tags": ["files", "display", "cat"]
+    },
+    {
+      "alias": "sdwn",
+      "command": "shutdown",
+      "description": "Shutdown the system",
+      "args": "-h now",
+      "runAsRoot": true,
+      "tags": ["shutdown", "system", "root"]
+    },
+    {
+      "alias": "rbt",
+      "command": "reboot",
+      "description": "Reboot the system",
+      "runAsRoot": true,
+      "tags": ["reboot", "system", "root"]
+    }
+  ]
+}

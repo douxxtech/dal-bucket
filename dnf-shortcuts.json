@@ -1,0 +1,49 @@
+{
+  "name": "dnf-shortcuts",
+  "description": "Essential shortcuts for DNF package manager (Fedora Linux)",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "tags": ["dnf", "fedora", "package-manager", "system"],
+  "aliases": [
+    {
+      "alias": "di",
+      "command": "dnf install",
+      "description": "Install packages with dnf",
+      "runAsRoot": true,
+      "tags": ["install", "quick"]
+    },
+    {
+      "alias": "dr",
+      "command": "dnf remove",
+      "description": "Remove packages with dnf",
+      "runAsRoot": true,
+      "tags": ["remove", "quick"]
+    },
+    {
+      "alias": "du",
+      "command": "dnf upgrade",
+      "description": "Update system with dnf",
+      "runAsRoot": true,
+      "tags": ["update", "quick"]
+    },
+    {
+      "alias": "ds",
+      "command": "dnf search",
+      "description": "Search for packages",
+      "tags": ["search", "quick"]
+    },
+    {
+      "alias": "dq",
+      "command": "dnf list installed",
+      "description": "Query installed packages",
+      "tags": ["list", "quick"]
+    },
+    {
+      "alias": "dc",
+      "command": "dnf clean all",
+      "description": "Clean package cache",
+      "runAsRoot": true,
+      "tags": ["cleanup", "quick"]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "apt-shortcuts",
+  "description": "Essential shortcuts for APT package manager (Debian/Ubuntu)",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["apt", "debian", "ubuntu", "package-manager", "system"],
+  "aliases": [
+    {
+      "alias": "ai",
+      "command": "apt install",
+      "description": "Install packages with apt",
+      "runAsRoot": true,
+      "tags": ["install", "quick"]
+    },
+    {
+      "alias": "ar",
+      "command": "apt remove",
+      "description": "Remove packages with apt",
+      "runAsRoot": true,
+      "tags": ["remove", "quick"]
+    },
+    {
+      "alias": "au",
+      "command": "apt update",
+      "description": "Update package lists",
+      "runAsRoot": true,
+      "tags": ["update", "quick"]
+    },
+    {
+      "alias": "aug",
+      "command": "apt upgrade",
+      "description": "Upgrade installed packages",
+      "runAsRoot": true,
+      "tags": ["upgrade", "quick"]
+    },
+    {
+      "alias": "as",
+      "command": "apt search",
+      "description": "Search for packages",
+      "tags": ["search", "quick"]
+    },
+    {
+      "alias": "ash",
+      "command": "apt show",
+      "description": "Show package information",
+      "tags": ["info", "quick"]
+    },
+    {
+      "alias": "aac",
+      "command": "apt autoremove",
+      "description": "Remove unnecessary packages",
+      "runAsRoot": true,
+      "tags": ["cleanup", "quick"]
+    },
+    {
+      "alias": "al",
+      "command": "apt list",
+      "description": "List packages",
+      "args": "--installed",
+      "tags": ["list", "quick"]
+    }
+  ]
+}

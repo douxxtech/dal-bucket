@@ -1,0 +1,78 @@
+{
+  "name": "file-operations",
+  "description": "Enhanced file and directory operation shortcuts",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["files", "directories", "operations", "utilities"],
+  "aliases": [
+    {
+      "alias": "mkd",
+      "command": "mkdir",
+      "description": "Create directory",
+      "args": "-p",
+      "tags": ["mkdir", "directory"]
+    },
+    {
+      "alias": "rmd",
+      "command": "rmdir",
+      "description": "Remove empty directory",
+      "tags": ["rmdir", "directory"]
+    },
+    {
+      "alias": "rmf",
+      "command": "rm",
+      "description": "Force remove files/directories",
+      "args": "-rf",
+      "tags": ["rm", "force", "recursive"]
+    },
+    {
+      "alias": "cpd",
+      "command": "cp",
+      "description": "Copy directory recursively",
+      "args": "-r",
+      "tags": ["cp", "copy", "recursive"]
+    },
+    {
+      "alias": "mvv",
+      "command": "mv",
+      "description": "Move with verbose output",
+      "args": "-v",
+      "tags": ["mv", "move", "verbose"]
+    },
+    {
+      "alias": "backup",
+      "command": "cp",
+      "description": "Create backup copy",
+      "args": "-r",
+      "tags": ["backup", "copy"]
+    },
+    {
+      "alias": "tree",
+      "command": "find",
+      "description": "Show directory tree",
+      "args": ". -type d | sed -e 's/[^-][^\/]*\//  |/g' -e 's/|\\([^ ]\\)/|-\\1/'",
+      "tags": ["tree", "directory", "structure"]
+    },
+    {
+      "alias": "sizeof",
+      "command": "du",
+      "description": "Show directory size",
+      "args": "-sh",
+      "tags": ["size", "directory", "disk"]
+    },
+    {
+      "alias": "findf",
+      "command": "find",
+      "description": "Find files by name",
+      "args": ". -name",
+      "tags": ["find", "search", "files"]
+    },
+    {
+      "alias": "findg",
+      "command": "find",
+      "description": "Find files containing text",
+      "args": ". -type f -exec grep -l",
+      "tags": ["find", "grep", "search"]
+    }
+  ]
+}

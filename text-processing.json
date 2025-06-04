@@ -1,0 +1,84 @@
+{
+  "name": "text-processing",
+  "description": "Essential text processing and manipulation shortcuts",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["text", "processing", "grep", "sed", "awk", "utilities"],
+  "aliases": [
+    {
+      "alias": "grepi",
+      "command": "grep",
+      "description": "Case-insensitive grep",
+      "args": "-i",
+      "tags": ["grep", "search", "case-insensitive"]
+    },
+    {
+      "alias": "grepr",
+      "command": "grep",
+      "description": "Recursive grep",
+      "args": "-r",
+      "tags": ["grep", "search", "recursive"]
+    },
+    {
+      "alias": "grepn",
+      "command": "grep",
+      "description": "Grep with line numbers",
+      "args": "-n",
+      "tags": ["grep", "search", "line-numbers"]
+    },
+    {
+      "alias": "grepv",
+      "command": "grep",
+      "description": "Invert grep match",
+      "args": "-v",
+      "tags": ["grep", "search", "invert"]
+    },
+    {
+      "alias": "tailf",
+      "command": "tail",
+      "description": "Follow file changes",
+      "args": "-f",
+      "tags": ["tail", "follow", "log"]
+    },
+    {
+      "alias": "headn",
+      "command": "head",
+      "description": "Show first n lines",
+      "args": "-n",
+      "tags": ["head", "lines", "text"]
+    },
+    {
+      "alias": "wcl",
+      "command": "wc",
+      "description": "Count lines",
+      "args": "-l",
+      "tags": ["wc", "count", "lines"]
+    },
+    {
+      "alias": "wcw",
+      "command": "wc",
+      "description": "Count words",
+      "args": "-w",
+      "tags": ["wc", "count", "words"]
+    },
+    {
+      "alias": "sort",
+      "command": "sort",
+      "description": "Sort lines",
+      "tags": ["sort", "text", "lines"]
+    },
+    {
+      "alias": "uniq",
+      "command": "sort | uniq",
+      "description": "Remove duplicate lines",
+      "tags": ["unique", "duplicates", "text"]
+    },
+    {
+      "alias": "replace",
+      "command": "sed",
+      "description": "Replace text in file",
+      "args": "-i 's///g'",
+      "tags": ["sed", "replace", "text"]
+    }
+  ]
+}

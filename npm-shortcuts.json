@@ -1,0 +1,71 @@
+{
+  "name": "npm-shortcuts",
+  "description": "Essential NPM package manager shortcuts for Node.js development",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["npm", "nodejs", "javascript", "package-manager", "development"],
+  "aliases": [
+    {
+      "alias": "ni",
+      "command": "npm install",
+      "description": "Install npm packages",
+      "tags": ["install", "npm"]
+    },
+    {
+      "alias": "nid",
+      "command": "npm install",
+      "description": "Install dev dependencies",
+      "args": "--save-dev",
+      "tags": ["install", "dev", "npm"]
+    },
+    {
+      "alias": "nig",
+      "command": "npm install",
+      "description": "Install global package",
+      "args": "-g",
+      "tags": ["install", "global", "npm"]
+    },
+    {
+      "alias": "nu",
+      "command": "npm uninstall",
+      "description": "Uninstall npm package",
+      "tags": ["uninstall", "npm"]
+    },
+    {
+      "alias": "nr",
+      "command": "npm run",
+      "description": "Run npm script",
+      "tags": ["run", "script", "npm"]
+    },
+    {
+      "alias": "ns",
+      "command": "npm start",
+      "description": "Start npm project",
+      "tags": ["start", "npm"]
+    },
+    {
+      "alias": "nt",
+      "command": "npm test",
+      "description": "Run npm tests",
+      "tags": ["test", "npm"]
+    },
+    {
+      "alias": "nb",
+      "command": "npm run build",
+      "description": "Build npm project",
+      "tags": ["build", "npm"]
+    },
+    {
+      "alias": "nls",
+      "command": "npm list",
+      "description": "List installed packages",
+      "tags": ["list", "npm"]
+    },
+    {
+      "alias": "no",
+      "command": "npm outdated",
+      "description": "Check for outdated packages",
+      "tags": ["outdated", "update", "npm"]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "python-dev",
+  "description": "Essential Python development shortcuts and utilities",
+  "version": "1.0.0",
+  "author": "Douxx",
+  "tags": ["python", "development", "pip", "venv", "programming"],
+  "aliases": [
+    {
+      "alias": "py",
+      "command": "python3",
+      "description": "Python 3 shortcut",
+      "tags": ["python", "shortcut"]
+    },
+    {
+      "alias": "pip",
+      "command": "python3 -m pip",
+      "description": "Use pip via python module",
+      "tags": ["pip", "python"]
+    },
+    {
+      "alias": "pii",
+      "command": "python3 -m pip install",
+      "description": "Install Python package",
+      "tags": ["pip", "install"]
+    },
+    {
+      "alias": "piu",
+      "command": "python3 -m pip uninstall",
+      "description": "Uninstall Python package",
+      "tags": ["pip", "uninstall"]
+    },
+    {
+      "alias": "pils",
+      "command": "python3 -m pip list",
+      "description": "List installed packages",
+      "tags": ["pip", "list"]
+    },
+    {
+      "alias": "piup",
+      "command": "python3 -m pip install --upgrade",
+      "description": "Upgrade Python package",
+      "tags": ["pip", "upgrade"]
+    },
+    {
+      "alias": "venv",
+      "command": "python3 -m venv",
+      "description": "Create virtual environment",
+      "tags": ["venv", "virtual-env"]
+    },
+    {
+      "alias": "activate",
+      "command": "source venv/bin/activate",
+      "description": "Activate virtual environment",
+      "tags": ["venv", "activate"]
+    },
+    {
+      "alias": "pytest",
+      "command": "python3 -m pytest",
+      "description": "Run pytest",
+      "tags": ["test", "pytest"]
+    },
+    {
+      "alias": "serve",
+      "command": "python3 -m http.server",
+      "description": "Start simple HTTP server",
+      "tags": ["server", "http"]
+    }
+  ]
+}
