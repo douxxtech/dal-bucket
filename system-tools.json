@@ -1,7 +1,7 @@
 {
   "name": "system-tools",
   "description": "Essential system administration and monitoring shortcuts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Douxx",
   "tags": ["system", "admin", "monitoring", "utilities"],
   "aliases": [
@@ -34,6 +34,27 @@
       "tags": ["navigation", "directory"]
     },
     {
+      "alias": "..",
+      "command": "cd",
+      "description": "Go in the parent directory",
+      "args": "..",
+      "tags": ["navigation", "directory"]
+    },
+    {
+      "alias": "~",
+      "command": "cd",
+      "description": "Go in the home directory",
+      "args": "~",
+      "tags": ["navigation", "directory"]
+    },
+    {
+      "alias": "-",
+      "command": "cd",
+      "description": "Go in the previous directory",
+      "args": "-",
+      "tags": ["navigation", "directory"]
+    },
+    {
       "alias": "h",
       "command": "history",
       "description": "Show command history",
@@ -54,7 +75,7 @@
       "tags": ["disk", "directory", "size"]
     },
     {
-      "alias": "free",
+      "alias": "f",
       "command": "free",
       "description": "Show memory usage",
       "args": "-h",
@@ -69,7 +90,7 @@
     },
     {
       "alias": "myip",
-      "command": "curl https://dapi.dpip.lol/v1/ip",
+      "command": "curl -sSL https://dapi.dpip.lol/v1/ip",
       "description": "Show external IP address",
       "args": "",
       "tags": ["network", "ip", "external"]
@@ -89,14 +110,14 @@
       "tags": ["text", "editor", "nano"]
     },
     {
-      "alias": "c",
+      "alias": "ca",
       "command": "cat",
       "description": "Concatenate and display files",
       "args": "",
       "tags": ["files", "display", "cat"]
     },
     {
-      "alias": "sdwn",
+      "alias": "sd",
       "command": "shutdown",
       "description": "Shutdown the system",
       "args": "-h now",
@@ -104,11 +125,18 @@
       "tags": ["shutdown", "system", "root"]
     },
     {
-      "alias": "rbt",
+      "alias": "rb",
       "command": "reboot",
       "description": "Reboot the system",
       "runAsRoot": true,
       "tags": ["reboot", "system", "root"]
+    },
+    {
+      "alias": "c",
+      "command": "clear",
+      "description": "Clears the terminal",
+      "runAsRoot": false,
+      "tags": ["clear", "system"]
     }
   ]
 }
