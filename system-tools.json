@@ -48,13 +48,6 @@
       "tags": ["navigation", "directory"]
     },
     {
-      "alias": "-",
-      "command": "cd",
-      "description": "Go in the previous directory",
-      "args": "-",
-      "tags": ["navigation", "directory"]
-    },
-    {
       "alias": "h",
       "command": "history",
       "description": "Show command history",
@@ -143,13 +136,6 @@
       "command": "mkdir",
       "description": "Creates a directory",
       "runAsRoot": false,
-      "tags": ["filesystem", "directory"]
-    },
-    {
-      "alias": "rm",
-      "command": "rm",
-      "description": "Forces removes and recursivly",
-      "args": "-rf",
       "tags": ["filesystem", "directory"]
     }
   ]
