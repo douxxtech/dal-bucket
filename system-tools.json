@@ -137,6 +137,20 @@
       "description": "Clears the terminal",
       "runAsRoot": false,
       "tags": ["clear", "system"]
+    },
+    {
+      "alias": "md",
+      "command": "mkdir",
+      "description": "Creates a directory",
+      "runAsRoot": false,
+      "tags": ["filesystem", "directory"]
+    },
+    {
+      "alias": "rm",
+      "command": "rm",
+      "description": "Forces removes and recursivly",
+      "args": "-rf",
+      "tags": ["filesystem", "directory"]
     }
   ]
 }
